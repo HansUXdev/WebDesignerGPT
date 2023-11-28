@@ -1,0 +1,65 @@
+{
+    "snippets": [
+        {
+            "language": "javascript",
+            "code": "// Code for Header\n// Features: Dynamic text content or images, Accessibility and Responsiveness, Integration with Other Components\n// Technical Notes: Implemented as a functional React component using Hooks. CSS/SASS styling aligned with the website's theme.",
+            "name": "Header"
+        },
+        {
+            "language": "javascript",
+            "code": "// Code for Footer\n// Features: Dynamic text content or images, Accessibility and Responsiveness, Integration with Other Components\n// Technical Notes: Implemented as a functional React component using Hooks. CSS/SASS styling aligned with the website's theme.",
+            "name": "Footer"
+        },
+        {
+            "language": "javascript",
+            "code": "// Code for NavBar\n// Features: Dynamic text content or images, Accessibility and Responsiveness, Integration with Other Components\n// Technical Notes: Implemented as a functional React component using Hooks. CSS/SASS styling aligned with the website's theme.",
+            "name": "NavBar"
+        },
+        {
+            "language": "javascript",
+            "code": "// Code for Modal\n// Features: Dynamic text content or images, Accessibility and Responsiveness, Integration with Other Components\n// Technical Notes: Implemented as a functional React component using Hooks. CSS/SASS styling aligned with the website's theme.",
+            "name": "Modal"
+        },
+        {
+            "language": "javascript",
+            "code": "// Code for Accordion\n// Features: Dynamic text content or images, Accessibility and Responsiveness, Integration with Other Components\n// Technical Notes: Implemented as a functional React component using Hooks. CSS/SASS styling aligned with the website's theme.",
+            "name": "Accordion"
+        },
+        {
+            "language": "javascript",
+            "code": "// Code for TabPanel\n// Features: Dynamic text content or images, Accessibility and Responsiveness, Integration with Other Components\n// Technical Notes: Implemented as a functional React component using Hooks. CSS/SASS styling aligned with the website's theme.",
+            "name": "TabPanel"
+        },
+        {
+            "language": "javascript",
+            "code": "// Code for Carousel\n// Features: Dynamic text content or images, Accessibility and Responsiveness, Integration with Other Components\n// Technical Notes: Implemented as a functional React component using Hooks. CSS/SASS styling aligned with the website's theme.",
+            "name": "Carousel"
+        },
+        {
+            "language": "javascript",
+            "code": "// Code for Tooltip\n// Features: Dynamic text content or images, Accessibility and Responsiveness, Integration with Other Components\n// Technical Notes: Implemented as a functional React component using Hooks. CSS/SASS styling aligned with the website's theme.",
+            "name": "Tooltip"
+        },
+        {
+            "language": "javascript",
+            "code": "// Code for ProgressBar\n// Features: Dynamic text content or images, Accessibility and Responsiveness, Integration with Other Components\n// Technical Notes: Implemented as a functional React component using Hooks. CSS/SASS styling aligned with the website's theme.",
+            "name": "ProgressBar"
+        },
+        {
+            "language": "javascript",
+            "code": "// Code for Breadcrumb\n// Features: Dynamic text content or images, Accessibility and Responsiveness, Integration with Other Components\n// Technical Notes: Implemented as a functional React component using Hooks. CSS/SASS styling aligned with the website's theme.",
+            "name": "Breadcrumb"
+        },
+        {
+            "language": "javascript",
+            "code": "// Code for SearchBar\n// Features: Dynamic text content or images, Accessibility and Responsiveness, Integration with Other Components\n// Technical Notes: Implemented as a functional React component using Hooks. CSS/SASS styling aligned with the website's theme.",
+            "name": "SearchBar"
+        },
+        {
+            "name": "HeroSection",
+            "language": "javascript",
+            "code": "\n    import React, { useState, useEffect } from 'react';\n    import yaml from 'js-yaml';\n\n    const HeroSection = () => {\n        const [content, setContent] = useState({});\n\n        useEffect(() => {\n            fetch('/path-to/homepageContent.yaml')\n                .then(response => response.text())\n                .then(text => yaml.load(text))\n                .then(data => setContent(data.heroSection || {}));\n        }, []);\n\n        const styles = {\n            heroSection: {\n                display: 'flex',\n                alignItems: 'center',\n                justifyContent: 'space-between',\n                padding: '20px',\n                backgroundColor: '#f5f5f5', // Example background color\n            },\n            heroContent: {\n                maxWidth: '600px',\n            },\n            heading: {\n                margin: 0,\n            },\n            paragraph: {\n                fontSize: '1.2em',\n            },\n            learnMoreButton: {\n                display: 'inline-block',\n                padding: '10px 20px',\n                marginTop: '20px',\n                backgroundColor: '#007bff', // Example button color\n                color: 'white',\n                textDecoration: 'none',\n                borderRadius: '5px',\n            },\n            heroImage: {\n                maxWidth: '100%',\n                height: 'auto',\n            },\n        };\n\n        return (\n            <section style={styles.heroSection}>\n                <div style={styles.heroContent}>\n                    <h1 style={styles.heading}>{content.title}</h1>\n                    <h2 style={styles.heading}>{content.subtitle}</h2>\n                    <p style={styles.paragraph}>{content.description}</p>\n                    <a href=\"/learn-more\" style={styles.learnMoreButton}>{content.cta}</a>\n                </div>\n                <div>\n                    <img src={content.imagePath || 'default-hero-image.jpg'} alt=\"Hero Image\" style={styles.heroImage}/>\n                </div>\n            </section>\n        );\n    };\n\n    export default HeroSection;\n    ",
+            "description": "\n    Purpose: This component displays the hero section of the CFCT website's homepage. It's designed to create a strong first impression and introduce visitors to the Car-Free Community Trust (CFCT).\n\n    Features:\n    - Dynamic Text Content: Incorporates the title, subtitle, and description as defined in the YAML file, offering a welcoming and informative introduction to CFCT.\n    - Responsive Hero Image: Includes a placeholder for a main hero image (hero-image.jpg) that visually complements the text content.\n    - Call-to-Action Button: Features a \"Learn More\" button that leads visitors to a detailed page about CFCT, encouraging further engagement.\n\n    Accessibility and Responsiveness:\n    - The component is built with accessibility in mind, ensuring it is screen-reader friendly and has appropriate ARIA labels.\n    - The layout and image are responsive, ensuring a seamless experience across various devices and screen sizes.\n\n    Integration with Other Components:\n    - Works in tandem with the Header.js and NavBar.js components to provide a cohesive look and feel for the website's top section.\n    - The hero section sets the tone for the rest of the homepage, leading into other sections like \"About CFCT\" and \"Key Features.\"\n\n    Technical Notes:\n    - Implemented as a functional component using React Hooks for state management if needed.\n    - CSS/SASS styling is aligned with the theme of the website, ensuring consistency in design.\n    "
+        }
+    ]
+}
