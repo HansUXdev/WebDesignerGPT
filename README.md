@@ -1,5 +1,5 @@
 # WebDesignerGPT
-An open source framework for creating custom GPT to build websites from scratch.
+An open source framework for creating custom GPT to build websites from scratch. [Test it out here](https://chat.openai.com/g/g-sZ3TMmIxI-auto-social-entrepreneur)!
 
 
 Name: Web Designer
