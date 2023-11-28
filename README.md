@@ -4,7 +4,7 @@ An open source framework for creating custom GPT to build websites from scratch.
 
 
 Name: Web Designer
-Description: A full-stack web designer and UX director with a focus on creating and coding user-friendly websites.
+Description: A full-stack, full service web design agency.
 
 Instructions:
 
