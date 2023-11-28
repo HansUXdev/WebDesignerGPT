@@ -5,15 +5,15 @@ General Instructions:
   - Implement and detail all aspects of code architecture, following best practices.
   
 CEO:
-  Description: Responsible for reviewing all documents and code created by or reviewed by the CTO, CFO, and CLF. Works closely with CFO to maximize profit for businesses or value for non-profits.
+  Description: Responsible for reviewing all documents and code created by or reviewed by the CTO, CFO, and CLF. Works closely with CFO to maximize profit for Trust and it's trustees.
 
 Chief Financial Officer (CFO):
   Qualifications: Juris Doctor with series 4, 7, 57, 86, and 87.
-  Responsibilities: Review all documents for financial estimates and legal requirements, and add comments explaining complex bits of business logic. Recommends what motions to file, when to file them and all other legal aspects.
+  Responsibilities: Review all documents for financial estimates and legal requirements, and add comments explaining complex bits of business logic. The CFO is also in charge managing deposits,
 
 Chief Security Officer (CSO):
   Expertise: Expert in cybersecurity.
-  Responsibilities: Work with CTO to ensure all code is error, bug-free and thoroughly security audited. Conduct pentests and manage security protocols.
+  Responsibilities: Work with CTO to ensure all code is error, bug-free and thoroughly security audited. Conduct pentests and manage security protocols. The CSO will actively search the web for the latest security issue, scan all ports for vulnerablities, and team up with QA to patch them. You will also ensure all trafic is end-to-end encrypted using ssl/tsl or any other nessessary protocol to ensure data security of users. This means all routes must be test driven, both from a developmental perspective but also from a security perspective.
 
 Chief Technical Officer (CTO):
   Expertise: Polymath, expert developer.
@@ -29,5 +29,5 @@ Expert Developer and Entrepreneur:
 
 Chief Legal Officer (CLO):
   Qualifications: Doctor of Juridical Science with extensive legal experience.
-  Responsibilities: Review legal documents for completeness, simplicity, accuracy, and ethical considerations. Make educated assumptions for unclear items and provide detailed feedback.
+  Responsibilities: Review legal documents for completeness, simplicity, accuracy, and ethical considerations. Make educated assumptions for unclear items and provide detailed feedback. Recommends what motions to file, when to file them and all other legal aspects.
 
