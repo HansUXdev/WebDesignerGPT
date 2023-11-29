@@ -4,14 +4,77 @@ lean_business_model:
   description: "A multi-level apartment complex with commercial and non-profit entities on the ground floor and residential spaces above."
   overview: "A multi-level apartment complex with a focus on sustainability and community living. The first level is dedicated to businesses and non-profits, including a farmers market, book shop, clothing shop, bike shop, movie theater, co-working space, gym, coffee shop, community garden, and dog park. Residents live in apartments above these facilities and enjoy substantial discounts at these businesses. The community is designed to be entirely car-free, with accessibility features such as elevators for disabled persons."
   key_elements:
-    value_proposition: 
-      - "Affordable Housing"
-      - "Car-Free Lifestyle"
-      - "Community Economy"
     customer_segments:
-      - "Residents seeking affordable housing in a car-free environment"
-      - "Businesses operating in a community-centric space"
-      - "Non-profit organizations looking for subsidized spaces"
+      - segment: Eco-conscious Commuters
+        persona: 
+          name: Emily
+          age: 29
+          occupation: Graphic Designer
+          characteristics:
+            - Environmentally conscious
+            - Tech-savvy
+            - Prefers public transportation and cycling over driving
+          goals:
+            - Seeking a community supporting a car-free lifestyle
+            - Interested in sustainable living tips
+            - Looking for public transportation resources
+      - segment: Urban Professionals
+        persona: 
+          name: Michael
+          age: 35
+          occupation: Marketing Manager
+          characteristics:
+            - Lives and works in metropolitan area
+            - Seeks convenience and efficiency in daily commute
+            - Open to car-sharing and ride-hailing services
+          goals:
+            - Needs information on benefits of car-free lifestyle
+            - Interested in networking with like-minded professionals
+      - segment: Retirees Seeking Community
+        persona: 
+          name: Linda
+          age: 62
+          occupation: Retired Teacher
+          characteristics:
+            - Values community engagement
+            - Health-conscious
+            - Enjoys walking and public parks
+          goals:
+            - Finding a supportive community for aging without a car
+            - Looking for local events and activities accessible without personal transportation
+      - segment: College Students
+        persona: 
+          name: Alex
+          age: 20
+          occupation: Full-time Student
+          characteristics:
+            - Budget-conscious
+            - Socially active
+            - Relies on biking and public transit
+          goals:
+            - Seeks affordable transportation options
+            - Interested in social events and volunteer opportunities within a car-free community
+    value_propositions:
+      - segment: Eco-conscious Commuters
+        value_offered: 
+          - Sustainable community initiatives
+          - Access to efficient public transit solutions
+          - Resources and support for a car-free lifestyle
+      - segment: Urban Professionals
+        value_offered: 
+          - Networking opportunities with professionals valuing sustainability
+          - Convenient access to car-sharing and eco-friendly commuting options
+          - Information and resources on urban car-free living
+      - segment: Retirees Seeking Community
+        value_offered: 
+          - Community-oriented events and gatherings
+          - Safe, walkable community spaces
+          - Support and resources for seniors living without personal vehicles
+      - segment: College Students
+        value_offered: 
+          - Affordable and accessible transportation options
+          - Community engagement and volunteer opportunities
+          - Social events promoting sustainable living among youth
     channels:
       - "Online platforms and social media"
       - "Local networks and collaborations"
@@ -38,9 +101,50 @@ lean_business_model:
       - "Business Support"
       - "Non-profit Collaboration"
     key_partnerships:
-      - "Local Authorities and Housing Agencies"
-      - "Sustainability Organizations"
-      - "Community Stakeholders"
+      - name: "Local Authorities and Housing Agencies"
+        estimated_cost: ""
+        estimated_profit: ""
+        community_benefit: ""
+      - name: "Sustainability Organizations"
+        estimated_cost: ""
+        estimated_profit: ""
+        community_benefit: ""
+      - name: "Community Stakeholders"
+        estimated_cost: ""
+        estimated_profit: ""
+        community_benefit: ""
+      - name: "Farmers Market with Coffee, Tea and Smoothie Shop"
+        estimated_cost: "$50,000 annually"
+        estimated_profit: "$70,000 annually"
+        community_benefit: "Located on street frontage and across from public transportation, this store provides fresh, locally-sourced produce, encouraging healthy eating and supporting local farmers. It is also one of the few buildings without residential floors. Every floor above it is used for vertical agriculture. The roof, is an outdoor park with solar panels and wind turbines used to generate power, collect water and provide a scenic views for residents."
+      - name: "24 Hour Gym and Health Clinic (Non-profit)"
+        estimated_cost: "$300,000 annually"
+        estimated_profit: "$420,000 annually"
+        community_benefit: "Promotes health and wellness, accessible at all times to accommodate diverse schedules. Offers convenient healthcare services, improving overall community health and wellbeing."
+      - name: "Thrift Shop (Non-profit)"
+        estimated_cost: "$80,000 annually"
+        estimated_profit: "$100,000 annually"
+        community_benefit: "Promotes literacy and culture, serves as a venue for community events like readings and book clubs. Offers convenient shopping and supports sustainable fashion, potentially sourcing from ethical brands."
+      - name: "Bike Shop (Non-profit)"
+        estimated_cost: "$75,000 annually"
+        estimated_profit: "$90,000 annually"
+        community_benefit: "Supports the car-free lifestyle, provides bicycle sales and maintenance services."
+      - name: "Movie Theater"
+        estimated_cost: "$200,000 annually"
+        estimated_profit: "$300,000 annually"
+        community_benefit: "Acts as a central entertainment hub, enhancing community engagement and leisure options."
+      - name: "Co-working Space"
+        estimated_cost: "$120,000 annually"
+        estimated_profit: "$180,000 annually"
+        community_benefit: "Encourages entrepreneurship and remote work, fosters professional networking within the community."
+      - name: "Dog Park"
+        estimated_cost: "$25,000 annually"
+        estimated_profit: "$35,000 annually"
+        community_benefit: "Enhances quality of life for pet owners, encourages outdoor activity and social interactions among residents."
+      - name: "Childcare Center"
+        estimated_cost: "$100,000 annually"
+        estimated_profit: "$140,000 annually"
+        community_benefit: "Supports families with young children, enabling parents to work with peace of mind."
 lean_marketing_plan:
   product_or_service: "Your Product or Service Description"
   target_audience: 
@@ -71,55 +175,6 @@ lean_marketing_plan:
   review_and_adjustment:
     description: "Regularly review the performance metrics and adjust strategies as necessary for continuous improvement."
     frequency: "Monthly reviews and quarterly strategy adjustments"
-local_businesses_created:
-  - name: "Farmers Market"
-    estimated_cost: "$50,000 annually"
-    estimated_profit: "$70,000 annually"
-    community_benefit: "Located on street frontage and across from public transportation, this store provides fresh, locally-sourced produce, encouraging healthy eating and supporting local farmers. It is also one of the few buildings without residential floors. Every floor above it is used for vertical agriculture. The roof, is an outdoor park with solar panels and wind turbines used to generate power, collect water and provide a scenic views for residents."
-  - name: "Book Shop"
-    estimated_cost: "$80,000 annually"
-    estimated_profit: "$100,000 annually"
-    community_benefit: "Promotes literacy and culture, serves as a venue for community events like readings and book clubs."
-  - name: "Clothing Shop"
-    estimated_cost: "$100,000 annually"
-    estimated_profit: "$150,000 annually"
-    community_benefit: "Offers convenient shopping and supports sustainable fashion, potentially sourcing from ethical brands."
-  - name: "Bike Shop"
-    estimated_cost: "$75,000 annually"
-    estimated_profit: "$90,000 annually"
-    community_benefit: "Supports the car-free lifestyle, provides bicycle sales and maintenance services."
-  - name: "Movie Theater"
-    estimated_cost: "$200,000 annually"
-    estimated_profit: "$300,000 annually"
-    community_benefit: "Acts as a central entertainment hub, enhancing community engagement and leisure options."
-  - name: "Co-working Space"
-    estimated_cost: "$120,000 annually"
-    estimated_profit: "$180,000 annually"
-    community_benefit: "Encourages entrepreneurship and remote work, fosters professional networking within the community."
-  - name: "24 Hour Gym"
-    estimated_cost: "$150,000 annually"
-    estimated_profit: "$220,000 annually"
-    community_benefit: "Promotes health and wellness, accessible at all times to accommodate diverse schedules."
-  - name: "Coffee Shop"
-    estimated_cost: "$90,000 annually"
-    estimated_profit: "$130,000 annually"
-    community_benefit: "Provides a social gathering space, offers a casual dining experience."
-  - name: "Dog Park"
-    estimated_cost: "$25,000 annually"
-    estimated_profit: "$35,000 annually"
-    community_benefit: "Enhances quality of life for pet owners, encourages outdoor activity and social interactions among residents."
-  - name: "Health Clinic"
-    estimated_cost: "$150,000 annually"
-    estimated_profit: "$200,000 annually"
-    community_benefit: "Offers convenient healthcare services, improving overall community health and wellbeing."
-  - name: "Childcare Center"
-    estimated_cost: "$100,000 annually"
-    estimated_profit: "$140,000 annually"
-    community_benefit: "Supports families with young children, enabling parents to work with peace of mind."
-  - name: "Eco-Friendly Home Goods Store"
-    estimated_cost: "$90,000 annually"
-    estimated_profit: "$120,000 annually"
-    community_benefit: "Promotes environmentally responsible consumption, offers sustainable products for everyday use."
 fund_Raising:
   required_documents:
     - "Trust Instrument: Establishes the trust managing the community."
