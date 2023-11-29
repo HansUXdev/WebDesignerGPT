@@ -5,6 +5,19 @@ lean_business_model:
   overview: "A multi-level apartment complex with a focus on sustainability and community living. The first level is dedicated to businesses and non-profits, including a farmers market, book shop, clothing shop, bike shop, movie theater, co-working space, gym, coffee shop, community garden, and dog park. Residents live in apartments above these facilities and enjoy substantial discounts at these businesses. The community is designed to be entirely car-free, with accessibility features such as elevators for disabled persons."
   key_elements:
     customer_segments:
+      - segment: Homeless Individuals
+        persona: 
+          name: John
+          age: 40
+          occupation: Unemployed
+          characteristics:
+            - Seeking stable shelter and basic necessities
+            - Limited access to transportation and resources
+            - In need of supportive services and community assistance
+          goals:
+            - Finding access to safe, affordable transit options
+            - Seeking information on shelters and community support services
+            - Looking for opportunities to integrate into the community
       - segment: Eco-conscious Commuters
         persona: 
           name: Emily
@@ -55,6 +68,11 @@ lean_business_model:
             - Seeks affordable transportation options
             - Interested in social events and volunteer opportunities within a car-free community
     value_propositions:
+      - segment: Homeless Individuals
+          value_offered: 
+            - Affordable and accessible transportation for essential travel
+            - Information on local shelters, food services, and support networks
+            - Community programs aimed at aiding and integrating homeless individuals
       - segment: Eco-conscious Commuters
         value_offered: 
           - Sustainable community initiatives
