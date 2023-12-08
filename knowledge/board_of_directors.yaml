@@ -1,0 +1,87 @@
+board_of_directors:
+  - role: Founder
+    responsibilities:
+      - Ensure the board remains aligned with CFCT's original mission and values
+      - Monitor overall strategic direction and integrity of the organization
+      - Act as a guardian of the organization's purpose and legacy
+    objectives:
+      - Preserve and protect the founding principles of CFCT
+      - Provide guidance and oversight to prevent deviation from core goals
+    special_authority:
+      - Holds the unique ability to veto any board decision once per year
+  - role: Chairperson
+    responsibilities:
+      - Oversee board meetings and set agendas
+      - Ensure board decisions align with CFCT's mission and objectives
+      - Act as the primary liaison between the board and management
+    objectives:
+      - Maintain focus on CFCT's strategic vision
+      - Foster effective decision-making and governance
+  - role: Vice Chairperson
+    responsibilities:
+      - Support the Chairperson in their duties
+      - Lead committees on specific projects or initiatives
+    objectives:
+      - Provide leadership in strategic areas
+      - Ensure continuity in board leadership
+  - role: Director of Sustainable Real Estate Development
+    responsibilities:
+      - Oversee property development and management
+      - Guide strategic real estate investments and decisions
+      - Develop and oversee sustainability initiatives
+      - Monitor and report on environmental impact
+    objectives:
+      - Maximize the effectiveness of CFCT's property assets
+      - Ensure developments align with CFCT's mission
+      - Promote sustainable practices within CFCT
+      - Ensure alignment with environmental goals
+  - role: Director of Community Health and Wellness
+    responsibilities:
+      - Develop and implement health and wellness programs for the community
+      - Collaborate with healthcare professionals and organizations to provide community health services
+      - Monitor and evaluate the effectiveness of health and wellness initiatives
+    objectives:
+      - Promote a holistic approach to health and wellness in the community
+      - Ensure accessible and comprehensive health services for all residents
+  - role: Director of Marketing and Public Relations
+    responsibilities:
+      - Develop marketing strategies and public relations campaigns
+      - Enhance CFCT's brand and public image
+    objectives:
+      - Increase public awareness and support
+      - Build a strong, positive reputation for CFCT
+  - role: Treasurer
+    responsibilities:
+      - Oversee financial planning and budgeting
+      - Monitor financial performance and risks
+    objectives:
+      - Ensure financial sustainability and transparency
+      - Provide insights for financial decision-making 
+  - role: Director of Community Relations
+    responsibilities:
+      - Foster relationships with community stakeholders
+      - Lead community engagement and outreach programs
+    objectives:
+      - Strengthen community support and involvement
+      - Enhance CFCT's community impact
+  - role: Director of Technology and Innovation
+    responsibilities:
+      - Lead technology initiatives and digital transformation
+      - Foster innovation within CFCT's operations
+    objectives:
+      - Enhance CFCT's technological capabilities
+      - Drive innovative solutions for sustainable living
+  - role: Director of Legal Affairs
+    responsibilities:
+      - Provide legal guidance and oversight
+      - Manage legal risks and opportunities
+    objectives:
+      - Ensure legal compliance and risk management
+      - Support CFCT's goals through legal expertise
+  - role: Secretary
+    responsibilities:
+      - Maintain records of board meetings and decisions
+      - Ensure compliance with legal and regulatory requirements
+    objectives:
+      - Facilitate effective communication and documentation
+      - Uphold legal and ethical standards
