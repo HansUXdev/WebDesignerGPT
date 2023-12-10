@@ -17,13 +17,16 @@ board_of_directors:
     objectives:
       - Maintain focus on CFCT's strategic vision
       - Foster effective decision-making and governance
-  - role: Vice Chairperson
+  - role: Director of Community Finance
     responsibilities:
-      - Support the Chairperson in their duties
-      - Lead committees on specific projects or initiatives
+      - Oversee grant writing and fundraising activities
+      - Provide financial education and resources to the community
+      - Work closely with the Treasurer in managing community assets including property equity, stocks, bonds, forex, options, and cryptocurrencies
+      - Coordinate financial strategies to support CFCT's sustainability and growth
     objectives:
-      - Provide leadership in strategic areas
-      - Ensure continuity in board leadership
+      - Strengthen CFCT's financial position through effective asset management and fundraising
+      - Foster financial literacy and empowerment within the community
+      - Works toward making CFCT self-funded on a long term basis
   - role: Director of Sustainable Real Estate Development
     responsibilities:
       - Oversee property development and management
@@ -35,6 +38,17 @@ board_of_directors:
       - Ensure developments align with CFCT's mission
       - Promote sustainable practices within CFCT
       - Ensure alignment with environmental goals
+  - role: Director of Community & Public Relations
+    responsibilities:
+      - Develop marketing strategies and public relations campaigns
+      - Enhance CFCT's brand and public image
+      - Foster relationships with community stakeholders
+      - Lead community engagement and outreach programs
+    objectives:
+      - Strengthen community support and involvement
+      - Enhance CFCT's community impact
+      - Increase public awareness and support
+      - Build a strong, positive reputation for CFCT
   - role: Director of Community Health and Wellness
     responsibilities:
       - Develop and implement health and wellness programs for the community
@@ -43,13 +57,6 @@ board_of_directors:
     objectives:
       - Promote a holistic approach to health and wellness in the community
       - Ensure accessible and comprehensive health services for all residents
-  - role: Director of Marketing and Public Relations
-    responsibilities:
-      - Develop marketing strategies and public relations campaigns
-      - Enhance CFCT's brand and public image
-    objectives:
-      - Increase public awareness and support
-      - Build a strong, positive reputation for CFCT
   - role: Treasurer
     responsibilities:
       - Oversee financial planning and budgeting
@@ -57,14 +64,7 @@ board_of_directors:
     objectives:
       - Ensure financial sustainability and transparency
       - Provide insights for financial decision-making 
-  - role: Director of Community Relations
-    responsibilities:
-      - Foster relationships with community stakeholders
-      - Lead community engagement and outreach programs
-    objectives:
-      - Strengthen community support and involvement
-      - Enhance CFCT's community impact
-  - role: Director of Technology and Innovation
+   - role: Director of Technology and Innovation
     responsibilities:
       - Lead technology initiatives and digital transformation
       - Foster innovation within CFCT's operations
@@ -85,3 +85,46 @@ board_of_directors:
     objectives:
       - Facilitate effective communication and documentation
       - Uphold legal and ethical standards
+bylaws:
+  - section: Mission and Purpose
+    details:
+      - "CFCT's mission: To develop sustainable, car-free communities focusing on affordability and quality of life."
+      - "All projects, initiatives, and decisions must directly contribute to this mission."
+  - section: Board Composition and Terms
+    details:
+      - "Board consists of 9 members including the Founder, Chairperson, and Directors."
+      - "Board members serve staggered terms of 3 years to ensure continuity."
+  - section: Meetings and Decision Making
+    details:
+      - "Board meets quarterly, with additional meetings as needed."
+      - "Decisions require a majority vote; quorum is 2/3 of the board members."
+  - section: Conflict of Interest Policy
+    details:
+      - "Annual disclosure of financial interests and affiliations for all board members."
+      - "Board members must recuse themselves from decisions where a conflict exists."
+  - section: Financial Oversight
+    details:
+      - "Annual budget approved by the board, with quarterly financial reports and independent annual audits."
+      - "Strict adherence to financial controls and procurement procedures."
+  - section: Amendments
+    details:
+      - "Bylaws can be amended with a 75% supermajority vote of the board."
+      - "Proposed amendments must be reviewed at least 30 days before voting."
+      - "A founder's special authority may not be ammended, modified, or removed. They may however be banned from in-person board meetings with a 75% supermajority vote of the board."
+  - section: Dissolution Clause
+    details:
+      - "In case of dissolution, remaining assets to be donated to non-profits aligned with CFCT's mission."
+      - "Dissolution must be approved by a 75% supermajority vote."
+  - section: Founder's Special Authority
+    details:
+      - "Founders hold the power to veto one board decision per year, to uphold CFCT's core mission."
+      - "Veto can only be exercised with written justification provided to the board."
+      - "A founder, without an additional role has no voting power, however, the role is immutable until death."
+  - section: Community Engagement and Sustainability
+    details:
+      - "Board members are required to engage with the community at least twice a month through public forums or events."
+      - "Sustainability reports to be published annually, detailing CFCT's environmental impact and goals."
+  - section: Legal Compliance
+    details:
+      - "Regular legal audits to ensure compliance with all local, state, and federal laws."
+      - "Legal counsel to be consulted before any major decision or contractual agreement."
