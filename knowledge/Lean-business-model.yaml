@@ -68,11 +68,11 @@ lean_business_model:
             - Seeks affordable transportation options
             - Interested in social events and volunteer opportunities within a car-free community
     value_propositions:
-      - segment: Homeless Individuals
+      - segment: Digital Nomads & Homeless Individuals
           value_offered: 
-            - Affordable and accessible transportation for essential travel
+            - PODS provide an affordable option for temporary housing
             - Information on local shelters, food services, and support networks
-            - Community programs aimed at aiding and integrating homeless individuals
+            - Community engagement programs aimed at aiding and integrating homeless individuals
       - segment: Eco-conscious Commuters
         value_offered: 
           - Sustainable community initiatives
@@ -172,6 +172,13 @@ lean_marketing_plan:
   target_audience: 
     - "Primary Audience Segment"
     - "Secondary Audience Segment"
+  videos:
+    - title: "How cohousing can make us happier"
+      url: "https://www.youtube.com/watch?v=mguvTfAw4wk"
+    - title: "How to Set up an ECOVILLAGE or CO-HOUSING COMMUNITY"
+      url: "https://www.youtube.com/watch?v=85EqQWW398s&list=TLPQMjMwMTIwMjQdm6njbhyBiA&index=2"
+    - title: "Can we make cities car free?"
+      url: "https://www.youtube.com/watch?v=g9-9CxCxrVE&list=TLPQMjMwMTIwMjQdm6njbhyBiA&index=4"
   unique_value_proposition: "What makes your offering unique and desirable"
   goals:
     - "Short-term Goal (e.g., Increase website traffic by 20% in 3 months)"
